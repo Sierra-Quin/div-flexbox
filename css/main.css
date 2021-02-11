@@ -105,14 +105,29 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
   font-size: 1.25em;
-  height: 100%;
+
+}
+.intro {
+  display: flex;
+  flex-flow: wrap;
+  color: white;
+  border-bottom: 1px solid white;
+  margin-bottom: 20px;
 }
 
+.intro h1 {
+  font-size: 3em;
+}
+
+.intro p {
+  font-size: 2em;
+}
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  flex-flow: wrap;
 }
 
 .div-1, .div-2, .div-3 {
@@ -128,11 +143,11 @@ body {
   align-items: center;
   flex-flow: wrap;
 }
-h1 .div-1, .div-2, .div-3 {
+h1 .div-1 .div-2 .div-3 {
   font-size: 2em;
 }
 
-p .div-1, .div-2, .div-3 {
+p .div-1 .div-2 .div-3 {
   font-size: 1px;
 }
 
